@@ -67,11 +67,13 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": "entrada de motores de generacion distribuida",
-                "razon": "se encuentran fuera por combustible",
+            "estimacion": [
+            {
+                "desc": "La entrada de motores de la Generación Distribuida",
+                "razon": "Falta de combustible",
                 "cantidad_mw": 150
             }
+        ]
         },
         "max_afect_dia": {
             "cantidad_mw": 1094,

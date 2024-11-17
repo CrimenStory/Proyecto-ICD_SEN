@@ -68,11 +68,18 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": "entrada de motores de la generación distribuida y la entrada de la unidad 6 de la CTE Nuevitas",
-                "razon": "se encuentran fuera por combustible",
-                "cantidad_mw": 230
+            "estimacion": [
+            {
+                "desc": "La entrada de motores de la Generación Distribuida",
+                "razon": "Falta de combustible",
+                "cantidad_mw": 150
+            },
+            {
+                "desc": "La entrada de la unidad 6 de la CTE Nuevitas",
+                "razon": "En espera de mantenimiento",
+                "cantidad_mw": 80
             }
+        ]
         },
        "max_afect_dia": {
             "cantidad_mw": 1226,

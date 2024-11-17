@@ -80,11 +80,23 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": "entrada de motores de la generación distribuida, de la unidad 6 de la CTE Rente y de la unidad 5 de la CTE Nuevitas",
-                "razon": "se encuentran fuera por combustible",
-                "cantidad_mw": 235
+            "estimacion": [
+            {
+                "desc": "La entrada de motores de la Generación Distribuida",
+                "razon": "Falta de combustible",
+                "cantidad_mw": 100
+            },
+            {
+                "desc": "La entrada de la Unidad 6 de la CTE Rente",
+                "razon": "En espera de mantenimiento",
+                "cantidad_mw": 65
+            },
+            {
+                "desc": "La entrada de la Unidad 5 de la CTE Nuevitas",
+                "razon": "En espera de mantenimiento",
+                "cantidad_mw": 70
             }
+        ]
         },
         "max_afect_dia": {
             "cantidad_mw": 963,

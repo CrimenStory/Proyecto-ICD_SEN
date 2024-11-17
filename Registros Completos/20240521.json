@@ -68,11 +68,28 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": "entrada de motores de generacion distribuida, de la unidad 8 de la CTE Mariel y de la unidad 2 y 6 de Energas Jaruco",
-                "razon": "se encuentran fuera por combustible",
-                "cantidad_mw": 330
+            "estimacion": [
+            {
+                "desc": "La entrada de motores de la Generación Distribuida",
+                "razon": "Falta de combustible",
+                "cantidad_mw": 200
+            },
+            {
+                "desc": "La entrada de la Unidad 8 de la CTE Mariel",
+                "razon": "En espera de mantenimiento",
+                "cantidad_mw": 80
+            },
+            {
+                "desc": "La entrada de la Unidad 2 de Energas Jaruco",
+                "razon": "En espera de mantenimiento",
+                "cantidad_mw": 30
+            },
+            {
+                "desc":"Completamiento de la Unidad 6 de Energas Jaruco",
+                "razon": "En espera de mantenimiento",
+                "cantidad_mw": 20
             }
+        ]
         },
         "max_afect_dia": {
             "cantidad_mw": 917,

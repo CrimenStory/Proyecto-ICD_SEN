@@ -76,11 +76,28 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": "entrada de motores de la generación distribuida,  la entrada de la unidad 6 de la CTE Marie, a entrada de la unidad 4 de Energas Varadero y la entrada de la unidad de Puerto Escondido ",
-                "razon": "se encuentran fuera por combustible",
-                "cantidad_mw": 219
+            "estimacion": [
+            {
+                "desc": "La entrada de motores de la Generación Distribuida",
+                "razon": "Falta de combustible",
+                "cantidad_mw": 80
+            },
+            {
+                "desc": "la entrada de la Unidad 6 de la CTE Mariel",
+                "razon": "En espera de mantenimiento",
+                "cantidad_mw": 95
+            },
+            {
+                "desc": " La entrada de la Unidad 4 de Energas Varadero",
+                "razon":"En espera de mantenimiento",
+                "cantidad_mw": 30
+            },
+            {
+                "desc": "La entrada de la unidad de Puerto Escondido",
+                "razon": "En espera de mantenimiento",
+                "cantidad_mw": 14
             }
+        ]
         },
         "max_afect_dia": {
             "cantidad_mw": 1359,
