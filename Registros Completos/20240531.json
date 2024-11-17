@@ -1,0 +1,88 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "31-05-2024",
+            "dia": "Viernes",
+            "url": "http://www.cubadebate.cu/noticias/2024/05/31/union-electrica-en-linea-felton-1-se-pronostica-una-afectacion-de-870-mw-en-el-horario-pico/"
+        },
+        "estimacion": {
+            "horario": "nocturno",
+            "disponibilidad": 2480,
+            "demanda_max": 3280,
+            "deficit": 800,
+            "pronostico": {
+                "afectacion": 870
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2250,
+                "demanda": 2575,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 600
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 523,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 6",
+                        "CTE":"Nuevitas"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre":"Unidad 3",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre":"Unidad 5",
+                        "CTE":"Mariel"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 58,
+                        "tipo": "Centrales de generación distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 387
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de motores de la generación distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 150
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1162,
+            "hora": "20:10",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": " se afectó el servicio por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}

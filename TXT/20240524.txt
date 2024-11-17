@@ -1,0 +1,15 @@
+﻿Titulo: UNE pronostica afectación de 795 MW para el horario pico 
+Fecha: 24-mayo-2024 
+
+En el día de ayer se afectó el servicio por déficit de capacidad las 24 horas.
+La máxima afectación en el día fue 1022 MW a las 21:00 horas, coincidente con la hora pico.
+La disponibilidad del SEN a las 07:00 horas es de 2120 MW la demanda 2410 MW, con 358 MW afectado por déficit de capacidad de generación, se estima una máxima afectación de 900 MW en el horario diurno.
+Se encuentra en avería la unidad 2 de la CTE Felton, la unidad 5 de Nuevitas y la unidad 5 de Rente. Se encuentran en mantenimiento la planta de Energas Varadero, las unidades 1 y 3 de la CTE Santa Cruz y la unidad 1 de la CTE Felton.
+Las limitaciones en la generación térmica son de 346 MW.
+Se encuentran fuera de servicio por combustible 48 centrales de generación distribuida, con 366 MW afectado por este concepto.
+Para el pico se estima la entrada de motores de la Generación Distribuida que se encuentran fuera por combustible con 150 MW, la entrada de la unidad 5 de la CTE Rente con 65 MW y la entrada de la unidad 5 de la CTE Nuevitas con 70 MW.
+Con este pronóstico, se estima para la hora pico una disponibilidad de 2405 MW y una demanda máxima de 3130 MW, para un déficit de 725 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 795 MW en este horario.
+(Con información de la UNE)
+
+Artículo impreso de: Cubadebate: http://www.cubadebate.cu 
+URL del artículo: http://www.cubadebate.cu/noticias/2024/05/24/une-pronostica-afectacion-de-795-mw-para-el-horario-pico/ 

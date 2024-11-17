@@ -1,0 +1,88 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "27-05-2024",
+            "dia": "Lunes",
+            "url": "http://www.cubadebate.cu/noticias/2024/05/27/la-union-electrica-estima-una-afectacion-de-1-040-mw-para-el-horario-pico-nocturno/  "
+        },
+        "estimacion": {
+            "horario": "nocturno",
+            "disponibilidad": 2330,
+            "demanda_max": 3300,
+            "deficit": 970,
+            "pronostico": {
+                "afectacion": 1040
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2100,
+                "demanda": 2670,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 900
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 388,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 6",
+                        "CTE": "Nuevitas"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre":"Unidad 3",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 5",
+                        "CTE":"Mariel"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 44,
+                        "tipo": "Centrales de generación distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 338
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de motores de la generación distribuida y la entrada de la unidad 6 de la CTE Nuevitas",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 230
+            }
+        },
+       "max_afect_dia": {
+            "cantidad_mw": 1226,
+            "hora": "20:50",
+            "desc": "coincidente con la hora pico"
+        },
+       "dia_anterior": {
+            "desc": " se afectó el servicio por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}

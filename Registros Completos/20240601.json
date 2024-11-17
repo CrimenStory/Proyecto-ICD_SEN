@@ -1,0 +1,80 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "01-06-2024",
+            "dia": "Sábado",
+            "url": "http://www.cubadebate.cu/noticias/2024/06/01/une-estima-afectacion-de-895-mw-durante-pico-nocturno-de-este-sabado/"
+        },
+        "estimacion": {
+            "horario": "nocturno",
+            "disponibilidad": 2475,
+            "demanda_max": 3300,
+            "deficit": 825,
+            "pronostico": {
+                "afectacion": 895
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2325,
+                "demanda": 2550,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 550
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 473,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre":"Unidad 3",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre":"Unidad 5",
+                        "CTE":"Mariel"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 64,
+                        "tipo": "Centrales de generación distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 472
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de motores de la generación distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 150
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1056,
+            "hora": "20:40",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": " se afectó el servicio por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}

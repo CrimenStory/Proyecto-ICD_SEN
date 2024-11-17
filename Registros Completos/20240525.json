@@ -1,0 +1,100 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "25-05-2024",
+            "dia": "Sábado",
+            "url": "http://www.cubadebate.cu/noticias/2024/05/25/une-pronostica-afectacion-de-880-mw-durante-pico-nocturno-de-este-sabado/"
+        },
+        "estimacion": {
+            "horario": "nocturno",
+            "disponibilidad": 2320,
+            "demanda_max": 3130,
+            "deficit": 810,
+            "pronostico": {
+                "afectacion": 880
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2085,
+                "demanda": 2400,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 800
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 267,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    },
+                    {
+                        "nombre":"Unidad 6",
+                        "CTE":"Rente"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 5",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre":"Unidad 6",
+                        "CTE": "Nuevitas"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre":"Unidad 3",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 5",
+                        "CTE":"Mariel"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 37,
+                        "tipo": "Centrales de generación distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 258
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de motores de la generación distribuida, de la unidad 6 de la CTE Rente y de la unidad 5 de la CTE Nuevitas",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 235
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 963,
+            "hora": "22:50",
+            "desc": "no coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": " se afectó el servicio por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}

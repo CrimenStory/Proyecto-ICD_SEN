@@ -1,0 +1,96 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "28-05-2024",
+            "dia": "Martes",
+            "url": "http://www.cubadebate.cu/noticias/2024/05/28/une-preven-afectacion-de-1440-mw-durante-horario-pico-nocturno-de-este-martes/   "
+        },
+        "estimacion": {
+            "horario": "nocturno",
+            "disponibilidad": 1980,
+            "demanda_max": 3350,
+            "deficit": 1370,
+            "pronostico": {
+                "afectacion": 1440
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1900,
+                "demanda": 2790,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 950 
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 375,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 6",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre":"Unidad 8",
+                        "CTE":"Mariel"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre":"Unidad 3",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 5",
+                        "CTE": "Mariel"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 51,
+                        "tipo": "Centrales de generación distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 392
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de motores de la generación distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 80
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1356,
+            "hora": "21:00",
+            "desc": "coincidente con la hora pico."
+        },
+        "dia_anterior": {
+            "desc": " se afectó el servicio por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}

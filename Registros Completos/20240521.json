@@ -1,0 +1,88 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "21-05-2024",
+            "dia": "Martes",
+            "url": "http://www.cubadebate.cu/noticias/2024/05/21/union-electrica-pronostica-afectacion-de-930-mw-para-el-pico-nocturno/ "
+        },
+        "estimacion": {
+            "horario": "nocturno",
+            "disponibilidad": 2320,
+            "demanda_max": 3180,
+            "deficit": 860,
+            "pronostico": {
+                "afectacion": 930
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1990,
+                "demanda": 2510,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 750
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 410,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE":"Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Felton"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 54,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 399
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de motores de generacion distribuida, de la unidad 8 de la CTE Mariel y de la unidad 2 y 6 de Energas Jaruco",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 330
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 917,
+            "hora": "20:40",
+            "desc": "no coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afectó el servicio por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}

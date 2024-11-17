@@ -1,0 +1,13 @@
+﻿Titulo: Unión Eléctrica: En línea Felton 1, se pronostica una afectación de 870 MW en el horario pico
+Fecha: 31 mayo 2024
+
+La máxima afectación en el día fue 1162 MW a las 20:10 horas, no coincidente con la hora pico.
+La disponibilidad del SEN a las 07:00 horas es de 2250 MW y la demanda, 2575 MW, con 398 MW afectado por déficit de capacidad de generación, se estima una máxima afectación de 600 MW en el horario diurno.
+La nota agregar que se encuentra en avería la unidad 8 de la CTE Mariel, la unidad 6 de la CTE Nuevitas y la unidad 2 de la CTE Felton. Se encuentran en mantenimiento la unidad 5 de la CTE Mariel y las unidades 1 y 3 de la CTE Santa Cruz.
+Las limitaciones en la generación térmica son de 523 MW.
+Se encuentran fuera de servicio por combustible 58 centrales de generación distribuida, para un total de 387 MW afectado por este concepto.
+Para el pico se estima la entrada de motores de la Generación Distribuida que se encuentran fuera por combustible con 150 MW y la entrada de la unidad 8 de la CTE Mariel con 80 MW.
+Con este pronóstico, se estima para la hora pico una disponibilidad de 2480 MW y una demanda máxima de 3280 MW, para un déficit de 800 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 870 MW en este horario.
+
+Artículo impreso de: Cubadebate: http://www.cubadebate.cu 
+URL del artículo: http://www.cubadebate.cu/noticias/2024/05/31/union-electrica-en-linea-felton-1-se-pronostica-una-afectacion-de-870-mw-en-el-horario-pico/ 

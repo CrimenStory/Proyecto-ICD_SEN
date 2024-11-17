@@ -1,0 +1,80 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "02-06-2024",
+            "dia": "Domingo",
+            "url": "http://www.cubadebate.cu/noticias/2024/06/02/la-union-electrica-pronostica-una-afectacion-de-610-mw-para-el-horario-pico-nocturno/"
+        },
+        "estimacion": {
+            "horario": "nocturno",
+            "disponibilidad": 2610,
+            "demanda_max": 3150,
+            "deficit": 540,
+            "pronostico": {
+                "afectacion": 610
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2260,
+                "demanda": 2430,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 400
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 369,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 1",
+                        "CTE":"Antonio Guiteras"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre":"Unidad 3",
+                        "CTE": "Santa Cruz"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 62,
+                        "tipo": "Centrales de generación distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 457
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de motores de la generación distribuida y de la unidad de la CTE Antonio Guiteras",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 350
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 873,
+            "hora": "21:40",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": " se afectó el servicio por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": null
+        }
+    }
+}

@@ -1,0 +1,15 @@
+﻿Titulo: Unión Eléctrica pronostica afectación de 650 MW para el pico nocturno
+Fecha: 22-mayo-2024  
+
+La disponibilidad del SEN a las 07:00 horas es de 2200 MW la demanda 2150 MW, con todo el sistema con servicio, se estima una máxima afectación de 350 MW en el horario diurno.
+Se encuentra en avería la unidad 2 de la CTE Felton y la unidad 5 de Rente. Se encuentran en mantenimiento las unidades 1 y 3 de la CTE Santa Cruz y la unidad 1 de la CTE Felton.
+Las limitaciones en la generación térmica son de 435 MW.
+Se encuentran fuera de servicio por combustible 45 centrales de generación distribuida, con 319 MW afectado por este concepto.
+Para el pico se estima la entrada de motores de la Generación Distribuida que se encuentran fuera por combustible con 120 MW.
+Con este pronóstico, se estima para la hora pico una disponibilidad de 2320 MW y una demanda máxima de 2900 MW, para un déficit de 580 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 650 MW en este horario.
+En el día de ayer se afectó el servicio por déficit de capacidad de generación las 24 horas del dia. El servicio quedó restablecido a la 01:00 horas de la madrugada de hoy.
+La máxima afectación en el día fue 831 MW a las 12:18 horas.
+(Con información de UNE-MINEM)
+
+Artículo impreso de: Cubadebate: http://www.cubadebate.cu 
+URL del artículo: http://www.cubadebate.cu/noticias/2024/05/22/union-electrica-pronostica-afectacion-de-650-mw-para-el-pico-nocturno/ 

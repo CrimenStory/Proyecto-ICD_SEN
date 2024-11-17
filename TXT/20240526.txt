@@ -1,0 +1,13 @@
+﻿Titulo: Unión Eléctrica pronostica alto déficit en horario pico nocturno este domingo 
+Fecha: 26-mayo-2024 
+
+Este sábado se afectó el servicio por déficit de capacidad durante las 24 horas. La máxima afectación en el día fue 1166 MW a 20:50 horas, no coincidente con la hora pico.
+La disponibilidad del SEN a las 07:00 horas es de 2155 MW la demanda 2450 MW, con 360 MW afectado por déficit de capacidad de generación, se estima una máxima afectación de 850 MW en el horario diurno.
+Se encuentra en avería la unidad 2 de la CTE Felton y la unidad 6 de Nuevitas. Se encuentran en mantenimiento la unidad 5 de la CTE Mariel, la planta de Energas Varadero, las unidades 1 y 3 de la CTE Santa Cruz y la unidad 1 de la CTE Felton.
+Las limitaciones en la generación térmica son de 380 MW.
+Se encuentran fuera de servicio por combustible 50 centrales de generación distribuida, con 320 MW afectado por este concepto.
+Para el pico se estima la entrada de motores en Generación Distribuida que se encuentran fuera por combustible con 80 MW.
+Con este pronóstico, se estima para la hora pico una disponibilidad de 2235 MW y una demanda máxima de 3220 MW, para un déficit de 985 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 1055 MW en este horario.
+
+Artículo impreso de: Cubadebate: http://www.cubadebate.cu 
+URL del artículo: http://www.cubadebate.cu/noticias/2024/05/26/union-electrica-pronostica-alto-deficit-en-horario-pico-nocturno-este-domingo/ 
