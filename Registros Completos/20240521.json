@@ -56,16 +56,17 @@
                         "nombre": "Unidad 1",
                         "CTE": "Felton"
                     }
-                ],
-                "no_servicio": [
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
                     {
                         "cantidad": 54,
-                        "tipo": "Centrales de generacion distribuida",
                         "razon": "Falta de combustible",
                         "afectacion": 399
                     }
                 ]
-            }
         },
         "pico": {
             "estimacion": [

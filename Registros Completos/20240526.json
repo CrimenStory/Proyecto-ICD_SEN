@@ -56,16 +56,17 @@
                         "nombre": "Unidad 5",
                         "CTE": "Mariel"
                     }
-                ],
-                "no_servicio": [
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
                     {
                         "cantidad": 50,
-                        "tipo": "Centrales de generación distribuida",
                         "razon": "Falta de combustible",
                         "afectacion": 320
                     }
                 ]
-            }
         },
         "pico": {
             "estimacion": [

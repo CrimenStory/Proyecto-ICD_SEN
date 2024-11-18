@@ -64,16 +64,17 @@
                         "nombre":"Unidad 4",
                         "CTE": "Energas Varadero"
                     }
-                ],
-                "no_servicio": [
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
                     {
                         "cantidad": 54,
-                        "tipo": "Centrales de generación distribuida",
                         "razon": "Falta de combustible",
                         "afectacion": 398
                     }
                 ]
-            }
         },
         "pico": {
             "estimacion": [
