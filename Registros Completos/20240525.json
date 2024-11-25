@@ -1,114 +1,46 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "25-05-2024",
-            "dia": "Sábado",
-            "url": "http://www.cubadebate.cu/noticias/2024/05/25/une-pronostica-afectacion-de-880-mw-durante-pico-nocturno-de-este-sabado/"
-        },
-        "estimacion": {
-            "horario": "nocturno",
-            "disponibilidad": 2320,
-            "demanda_max": 3130,
-            "deficit": 810,
-            "pronostico": {
-                "afectacion": 880
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2085,
-                "demanda": 2400,
-                "totalidad": false
+    "zones_with_problems": [null], 
+    "date": "20240525",
+    "url": "http://www.cubadebate.cu/noticias/2024/05/25/une-pronostica-afectacion-de-880-mw-durante-pico-nocturno-de-este-sabado/", 
+    "prediction": {
+        "availability": 2320,  
+        "demand_max": 3130,
+        "impact": 880,
+        "deficit": 810,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2085, 
+        "demand": 2400, 
+        "deficit": 800 
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "AM":["5","6"],
+                "LR":["2"],
+                "DO":["5","6"]
+
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 800
-                }
-            }
-        },
-        "termoelectricas": {
-            "lim_gen_term": 267,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Rente"
-                    },
-                    {
-                        "nombre":"Unidad 6",
-                        "CTE":"Rente"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    },
-                    {
-                        "nombre":"Unidad 5",
-                        "CTE": "Nuevitas"
-                    },
-                    {
-                        "nombre":"Unidad 6",
-                        "CTE": "Nuevitas"
-                    }
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "Santa Cruz"
-                    },
-                    {
-                        "nombre":"Unidad 3",
-                        "CTE": "Santa Cruz"
-                    },
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "Felton"
-                    },
-                    {
-                        "nombre":"Unidad 5",
-                        "CTE":"Mariel"
-                    }
-                ]
-                
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                    {
-                        "cantidad": 37,
-                        "razon": "Falta de combustible",
-                        "afectacion": 258
-                    }
-                ]
-        },
-        "pico": {
-            "estimacion": [
-            {
-                "desc": "La entrada de motores de la Generación Distribuida",
-                "razon": "Falta de combustible",
-                "cantidad_mw": 100
+            "maintenance": {
+                "EG":["3"],
+                "MG":["5"],
+                "LR":["1"]
             },
-            {
-                "desc": "La entrada de la Unidad 6 de la CTE Rente",
-                "razon": "En espera de mantenimiento",
-                "cantidad_mw": 65
-            },
-            {
-                "desc": "La entrada de la Unidad 5 de la CTE Nuevitas",
-                "razon": "En espera de mantenimiento",
-                "cantidad_mw": 70
-            }
-        ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 963,
-            "hora": "22:50",
-            "desc": "no coincidente con la hora pico"
-        },
-        "dia_anterior": {
-            "desc": " se afectó el servicio por déficit de capacidad de generación",
-            "horas": 24,
-            "hora_rest": null
-        }
+            "limitation": 267
+    } 
+],
+    "distributed": {
+        "motors_with_problems": 37,
+        "total_impact": 258,
+        "combustible_problem": true,
+        "ships_with_problems": false,
+        "motors_impact": false
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 963,
+        "max_hour": null
     }
 }

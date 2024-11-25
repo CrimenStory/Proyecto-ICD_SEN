@@ -1,91 +1,44 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "26-05-2024",
-            "dia": "Domingo",
-            "url": "http://www.cubadebate.cu/noticias/2024/05/26/union-electrica-pronostica-alto-deficit-en-horario-pico-nocturno-este-domingo/  "
-        },
-        "estimacion": {
-            "horario": "nocturno",
-            "disponibilidad": 2235,
-            "demanda_max": 3220,
-            "deficit": 985,
-            "pronostico": {
-                "afectacion": 1055
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2155,
-                "demanda": 2450,
-                "totalidad": false
+    "zones_with_problems": [null], 
+    "date": "20240526",
+    "url": "http://www.cubadebate.cu/noticias/2024/05/26/union-electrica-pronostica-alto-deficit-en-horario-pico-nocturno-este-domingo/  ", 
+    "prediction": {
+        "availability": 2235,  
+        "demand_max": 3220,
+        "impact": 1055,
+        "deficit": 985,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2155, 
+        "demand": 2450, 
+        "deficit": 850 
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "LR":["2"],
+                "DO":["6"]
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 850
-                }
-            }
-        },
-        "termoelectricas": {
-            "lim_gen_term": 380,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    },
-                    {
-                        "nombre":"Unidad 6",
-                        "CTE": "Nuevitas"
-                    }
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "Santa Cruz"
-                    },
-                    {
-                        "nombre":"Unidad 3",
-                        "CTE": "Santa Cruz"
-                    },
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "Felton"
-                    },
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Mariel"
-                    }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                    {
-                        "cantidad": 50,
-                        "razon": "Falta de combustible",
-                        "afectacion": 320
-                    }
-                ]
-        },
-        "pico": {
-            "estimacion": [
-            {
-                "desc": "La entrada de motores de la Generación Distribuida",
-                "razon": "Falta de combustible",
-                "cantidad_mw": 80
-            }
-        ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 1166,
-            "hora": "20:50",
-            "desc": "no coincidente con la hora pico"
-        },
-        "dia_anterior": {
-            "desc": " se afectó el servicio por déficit de capacidad de generación",
-            "horas": 24,
-            "hora_rest": null
-        }
+            "maintenance": {
+                "EG":["1","3"],
+                "LR":["1"],
+                "MG":["5"]
+            },
+            "limitation": 380
+    } 
+],
+    "distributed": {
+        "motors_with_problems": 50,
+        "total_impact": 320,
+        "combustible_problem": true,
+        "ships_with_problems": false,
+        "motors_impact": false
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 1166,
+        "max_hour": null
     }
 }

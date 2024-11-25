@@ -1,88 +1,43 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "22-05-2024",
-            "dia": "Miércoles",
-            "url": "http://www.cubadebate.cu/noticias/2024/05/22/union-electrica-pronostica-afectacion-de-650-mw-para-el-pico-nocturno/ "
-        },
-        "estimacion": {
-            "horario": "nocturno",
-            "disponibilidad": 2320,
-            "demanda_max": 2900,
-            "deficit": 580,
-            "pronostico": {
-                "afectacion": 650
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2200,
-                "demanda": 2150,
-                "totalidad": true
+    "zones_with_problems": [null], 
+    "date": "20240522",
+    "url": "http://www.cubadebate.cu/noticias/2024/05/22/union-electrica-pronostica-afectacion-de-650-mw-para-el-pico-nocturno/ ", 
+    "prediction": {
+        "availability": 2320,  
+        "demand_max": 2900,
+        "impact": 650,
+        "deficit": 580,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2200, 
+        "demand": 2150, 
+        "deficit": 350 
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "AM":["5"],
+                "LR":["2"]
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 350
-                }
-            }
-        },
-        "termoelectricas": {
-            "lim_gen_term": 435,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Rente"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    }
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "Santa Cruz"
-                    },
-                    {
-                        "nombre":"Unidad 3",
-                        "CTE": "Santa Cruz"
-                    },
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "Felton"
-                    }
-                ]
-                
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                    {
-                        "cantidad": 45,
-                        "razon": "Falta de combustible",
-                        "afectacion": 319
-                    }
-                ]
-        },
-        "pico": {
-            "estimacion": [
-            {
-                "desc": "La entrada de motores de la Generación Distribuida",
-                "razon": "Falta de combustible",
-                "cantidad_mw": 120
-            }
-        ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 831,
-            "hora": "12:18",
-            "desc": "coincidente con la hora pico, superior a la planificada por la no entrada de la Unidad 6 de la CTE Nuevitas"
-        },
-        "dia_anterior": {
-            "desc": " se afectó el servicio por déficit de capacidad de generación",
-            "horas": 24,
-            "hora_rest": "01:00"
-        }
+            "maintenance": {
+                "EG":["1","3"],
+                "LR":["1"]
+            },
+            "limitation": 435
+    } 
+],
+    "distributed": {
+        "motors_with_problems": 45,
+        "total_impact": 319,
+        "combustible_problem": true,
+        "ships_with_problems": false,
+        "motors_impact": false
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 24,
+        "max_hour": null
     }
 }
